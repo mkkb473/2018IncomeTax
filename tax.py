@@ -18,6 +18,5 @@ for bar, rate in taxRates.items():
         idvTax += rate * (bar - preBar)
     temp -= bar - preBar
     preBar = bar
-    print(bar, preBar, temp)
 
-print("Your yearly income: {}\nYour yearly tax: {}\nYour actual yearly income: {}".format(salary, idvTax, salary - idvTax))
+print("税前年收入: {}\n年纳税额: {}\n税后年收入: {}".format(salary, idvTax, salary - idvTax))
