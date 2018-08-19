@@ -1,3 +1,5 @@
+#coding:utf-8
+# 2018 新个税计算
 import sys
 
 salary = int(sys.argv[1])
